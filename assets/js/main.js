@@ -34,6 +34,8 @@ let navbarScrollStyle = `
         display: block;
         opacity: 1;
         top: 20px;
+        
+
 
     }
 
@@ -41,6 +43,9 @@ let navbarScrollStyle = `
         visibility: hidden;
     }
 
+    .navbar__user-wrapper {
+        border: 1px solid #ccc;
+    }
 `
 let styleNode = document.createElement('style')
 styleNode.innerText = navbarScrollStyle

@@ -228,6 +228,13 @@ html {
     margin-top: 36px;
 }
 
+.header__btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #ff395c;
+}
+
+
 .navbar__search--collapse {
     background-color: white;
     position: absolute;
@@ -238,10 +245,11 @@ html {
     border: 1px solid #ccc;
     height: 40px;
     transform: translateX(50%);
+    
     display: none;
     opacity: 0;
 
-    transition: 0.3s ;
+    transition: 0.3s ease-in-out ;
 
 
 
@@ -253,6 +261,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    transition: 0.3s;
 }
 
 .navbar__search-title--collapse {
